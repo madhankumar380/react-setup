@@ -4,6 +4,7 @@ import GridView from "./Gridview";
 import Todo from "./Todo";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import Profilecard from "./ProfileCard";
 
 // import Home from "./Home";
 import ProfileCard from "./ProfileCard";
