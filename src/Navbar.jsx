@@ -18,7 +18,7 @@ const Navbar = () => {
       }}
     >
       <div>
-        <Link to="/Home" style={{ color: "white", textDecoration: "none" }}>
+        <Link to="/" style={{ color: "white", textDecoration: "none" }}>
           Home
         </Link>
       </div>

@@ -4,10 +4,10 @@ import GridView from "./Gridview";
 import Todo from "./Todo";
 import Navbar from "./Navbar";
 import Home from "./Home";
-import Profilecard from "./ProfileCard";
+import Profile from "./Profile";
 
 // import Home from "./Home";
-import ProfileCard from "./ProfileCard";
+// import ProfileCard from "./ProfileCard";
 const Profilelist={
   name:"MADHAN KUMAR G",
   department:"AI&DS",
@@ -21,9 +21,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/todo" element={<Todo />} />
-        <Route path="/profilecard" element={<ProfileCard Profilelist={Profilelist} />} />
+        <Route path="/profilecard" element={<Profile Profilelist={Profilelist} />} />
         <Route path="/GridView" element={<GridView />} />
         <Route path="/Navbar" element={<Navbar/>}/>
 
